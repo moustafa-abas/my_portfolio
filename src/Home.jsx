@@ -1,5 +1,5 @@
 import Header from "./Header"
-import me from'./assets/my photo.jpg'
+import me from'./assets/my photo.webp'
 import whatsApp from'./assets/WhatsApp_icon.png'
 import linkedIn from'./assets/circle-linkedin-512.webp'
 import facebook from'./assets/facebook-logo-icon-facebook-icon-png-images-icons-and-png-backgrounds-1.webp'
