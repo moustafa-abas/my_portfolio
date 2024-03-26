@@ -1,6 +1,8 @@
 
 { 
     "routes": [
-        {"source": "/(.*)", "dest": "/"}
+        { "src": "/", "dest": "/" },
+        { "src": "/projects", "dest": "/" },
+        { "src": "/skills", "dest": "/" }
     ]
 }
