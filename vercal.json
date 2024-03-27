@@ -1,18 +1,8 @@
 
-{ 
-        "routes":[
-{
-    "src":"/",
-    "dest":"/"
-},
 
-{
-    "src":"/projects",
-    "dest":"/"
-},
-{
-    "src":"/skills",
-    "dest":"/"
-}
-        ]
+{ 
+        
+"rewrites": [
+    {"source": "/(.*)", "destination": "/"}
+]
 }
