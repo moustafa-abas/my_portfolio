@@ -42,7 +42,53 @@ body{
 
 // end header
 
-
+.name::before {
+    content: "";
+    display: inline-block;
+    animation: typing 3s  ease-in-out   infinite alternate ;
+  }
+  
+  @keyframes typing {
+    0% {
+      content: "";
+    }
+    8% {
+      content:"M";
+    }
+    16% {
+      content:"MO";
+    }
+    24% {
+      content:"MOS";
+    }
+    32% {
+      content:"MOST";
+    }
+    40% {
+      content:"MOSTA";
+    }
+    48% {
+      content:"MOSTAF ";
+    }
+    56% {
+      content:"MOSTAFA";
+    }
+    64% {
+      content:"MOSTAFA A";
+    }
+    71% {
+      content:"MOSTAFA AB";
+    }
+    80% {
+      content:"MOSTAFA ABA";
+    }
+    85% {
+      content:"MOSTAFA ABAS";
+    }
+    100% {
+      content:"MOSTAFA ABAS";
+    }
+  }
 home{
 height: 100vh;
 h1,h2{
@@ -58,6 +104,7 @@ color: var(--main-color);
         h1{
             line-height: 1.5;
         }
+
         .download{
             background-color: #af6626;
         }
