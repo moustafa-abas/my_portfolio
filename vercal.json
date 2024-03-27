@@ -3,21 +3,6 @@
 { 
         
 "rewrites": [
-    {"source": "/(.*)", "destination": "/"},
-    {
-        "src":"/",
-        "dest":"/"
-    },
-    
-    {
-        "src":"/projects",
-        "dest":"/"
-    },
-    {
-        "src":"/skills",
-        "dest":"/"
-    }
-            
+    {"source": "/(.*)", "destination": "/"}
 ]
-
 }
