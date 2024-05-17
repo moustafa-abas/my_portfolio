@@ -20,7 +20,7 @@ return (
 </div>
 <div className="dl mb-3  d-flex align-items-center ">
 <FontAwesomeIcon icon={faDownload}   className="icon download py-2 fs-3 px-2"/>
-<a href="/src/assets/mostafa-abas-cv.pdf" download='mostafa-abas-cv.pdf' className="dl text-decoration-none fs-5 py-2  px-3 text-capitalize"> download cv</a>
+<a href="https://drive.google.com/file/d/1wD6ubhV-SeAgGN_R8S72PFYZVGCzqZiB/view?usp=drive_link" download='mostafa-abas-cv' target="_blank" className="dl text-decoration-none fs-5 py-2  px-3 text-capitalize"> download cv</a>
 </div>
     </aside>
     <main className=" position-relative me-">
