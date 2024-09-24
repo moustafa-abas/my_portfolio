@@ -10,7 +10,7 @@ const Projects = () => {
   return (
     <>
     <Header/>
-    <div className="projects d-flex flex-column flex-sm-row flex-wrap   mt-2  ">
+    <div className="projects d-flex flex-column flex-sm-row flex-wrap  mb-5 mt-2  ">
     <div className="card  w-100 border-0 my-4">
         <img src={e_commerce} alt="" className="w-100" />
         <a href="https://e-commerce-lilac-five.vercel.app/" target="_blank" ><FontAwesomeIcon icon={faEye} fade style={{color:"#fff"}} className="icon"/></a>

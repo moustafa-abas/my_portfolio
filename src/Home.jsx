@@ -15,7 +15,7 @@ return (
     <aside className="d-flex d-sm-block justify-content-between">
         <div className="info ">
 <h1>hello,<span>i&apos; am</span> </h1>
-<h1 className="name"> <span>|</span></h1> 
+<h1 className="name">Mostafa Abas <span>|</span></h1> 
 <h1 className="mb-5"><span> front end developer</span></h1>
 </div>
 <div className="dl mb-3  d-flex align-items-center ">
