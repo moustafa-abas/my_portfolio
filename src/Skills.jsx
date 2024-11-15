@@ -21,6 +21,10 @@ return (
       <p className="text-uppercase mb-2">Bootstrap :</p>
 <progress value='1'/>
 </div>
+    <div className="one my-4 text-center " >
+      <p className="text-uppercase mb-2">Type Script :</p>
+<progress value='.7'/>
+</div>
 <div className="one my-4 text-center " >
       <p className="text-uppercase mb-2">React :</p>
 <progress value='.9'/>
