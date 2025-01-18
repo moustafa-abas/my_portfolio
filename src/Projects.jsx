@@ -2,6 +2,7 @@ import Header from "./Header"
 import carRental from'./assets/car rental.webp'
 import restaurant from'./assets/resturant.webp'
 import elipso from'./assets/elipso.webp'
+import crud from'./assets/crud.png'
 import quiz from'./assets/Black and Orange Modern Welcome to My Channel Video.jpg'
 import e_commerce from'./assets/e-commerce.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
@@ -20,7 +21,11 @@ const Projects = () => {
         <img src={quiz} alt="" className="w-100 " />
         <a href="https://quiz-app-gilt-delta.vercel.app/" target="_blank" ><FontAwesomeIcon icon={faEye} fade style={{color:"#fff"}} className="icon"/></a>
         </div>    
-      <div className="card  w-100   border- my-4">
+        <div className="card  w-100 border-0 my-4">
+        <img src={crud} alt="" className="w-100 h-100" />
+        <a href="https://my-crud-system.vercel.app/" target="_blank" ><FontAwesomeIcon icon={faEye} fade style={{color:"#fff"}} className="icon"/></a>
+        </div>        
+      <div className="card  w-100   border-0 my-4">
         <img src={elipso} alt="" className="w-100" />
         <a href="https://elipso-project.vercel.app/" target="_blank" >  <FontAwesomeIcon icon={faEye} fade style={{color:"#fff"}} className="icon"/></a>
       </div>
@@ -32,6 +37,7 @@ const Projects = () => {
         <img src={carRental} alt="" className="w-100" />
         <a href="https://car-rental-ashy.vercel.app/" target="_blank" ><FontAwesomeIcon icon={faEye} fade style={{color:"#fff"}} className="icon"/></a>
         </div>        
+   
       
     </div>
     </>
